@@ -1,0 +1,15 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<script src="http://localhost:8080/application.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript" charset="utf-8">
+			var jug = new Juggernaut({host:'localhost'});
+		  jug.subscribe("foo", function(data){
+		    alert("Got data: " + data);
+		  });
+		</script>
+	</body>
+</html>
